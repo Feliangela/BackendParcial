@@ -21,11 +21,7 @@ spring:
         - id: serieRoute
           uri: lb://serie-service/
           predicates:
-<<<<<<< HEAD
-            - Path=/api/v1/series/**
-=======
             - Path=//api/v1/series/**
->>>>>>> 7e7d08c4ac4cd8f1fba464e9e1f28f5f6f4be231
 
 
 eureka:
