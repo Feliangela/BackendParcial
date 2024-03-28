@@ -4,6 +4,15 @@ server:
 spring:
   application:
     name: serie-service
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+serie:
+  queue: serie-queue
 management:
   tracing:
     sampling:
