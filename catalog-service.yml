@@ -33,11 +33,7 @@ management:
   endpoint:
     health:
       show-details: always
-  metrics:
-    export:
-      zipkin:
-        enabled: true
-        uri: http://localhost:9411/ # La URL de tu servidor Zipkin
+  
 resilience4j:
   circuitbreaker:
     instances:
